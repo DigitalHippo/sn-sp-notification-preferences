@@ -1,7 +1,7 @@
 # sn-sp-notification-preferences
 ServiceNow Service Portal Notification Preferences
 
-s you may (or may not) know, one main item missing from the current Service Portal is a way for end users to manage their Notification & Subscription preferences. Currently the only options around this limitation are to either create a custom widget or to create an iframe which utilizes the Notification Preferences UI page.
+As you may (or may not) know, one main item missing from the current Service Portal is a way for end users to manage their Notification & Subscription preferences. Currently the only options around this limitation are to either create a custom widget or to create an iframe which utilizes the Notification Preferences UI page.
 
 Now the latter will only work if you have the system property "glide.notification.preference.ui.enabled" set to false as of Jakarta, Notification Preferences are shown in the System Settings. Setting this property to false will allow you to use the iframe method but it will also change the way all users of the platform manage their preferences i.e they will use the UI page rather than the System Settings.
 
